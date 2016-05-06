@@ -1,0 +1,4 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Algebra}{2}
+\contentsline {subsection}{\numberline {1.1}Binomische Formeln}{2}
+\contentsline {subsection}{\numberline {1.2}Potenzen}{2}
