@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.23)  6 MAY 2016 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.23)  7 MAY 2016 14:35
 entering extended mode
 **./FSMathe.tex
 (FSMathe.tex
@@ -1855,11 +1855,15 @@ File: upxsyc.fd 2000/12/14 v1.0
 
 {C:/Users/Luca/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (sections/al
 gebra.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--17
-
+Underfull \hbox (badness 10000) in alignment at lines 27--27
+[] 
  []
 
 )
+Underfull \hbox (badness 10000) in paragraph at lines 67--27
+
+ []
+
 
 Package caption Warning: Unused \captionsetup[sub] on input line 17.
 See the caption package documentation for explanation.
@@ -1870,25 +1874,32 @@ Overfull \vbox (1.59999pt too high) has occurred while \output is active []
 
 [2] (FSMathe.aux) ) 
 Here is how much of TeX's memory you used:
- 24368 strings out of 493634
- 519623 string characters out of 3135647
- 641526 words of memory out of 3000000
- 27240 multiletter control sequences out of 15000+200000
- 37143 words of font info for 96 fonts, out of 3000000 for 9000
+ 24370 strings out of 493634
+ 519610 string characters out of 3135647
+ 651526 words of memory out of 3000000
+ 27238 multiletter control sequences out of 15000+200000
+ 38943 words of font info for 100 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 55i,11n,54p,414b,232s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,15n,54p,414b,232s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Luca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\pub
-lic\mathabx\dpi600\matha8.pk>{C:/Users/Luca/AppData/Local/Programs/MiKTeX 2.9/f
-onts/enc/dvips/fontname/8r.enc} <C:\Users\Luca\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\public\mathabx\dpi657\matha10.pk><C:/Users/Luca/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/pxfonts/pxsyc.pfb><C:/Users/Luca/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Luca/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Luca/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Lu
-ca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on FSMathe.pdf (2 pages, 59150 bytes).
+lic\mathabx\dpi657\mathx10.pk> <C:\Users\Luca\AppData\Local\MiKTeX\2.9\fonts\pk
+\ljfour\public\mathabx\dpi360\mathx10.pk> <C:\Users\Luca\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\public\mathabx\dpi600\matha6.pk> <C:\Users\Luca\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi600\matha8.pk>{C:/Users/Luca/App
+Data/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\Luca\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi657\matha10.pk><C:/U
+sers/Luca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pxfonts/pxsyb.pf
+b><C:/Users/Luca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pxfonts/p
+xsyc.pfb><C:/Users/Luca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/px
+fonts/rpxmi.pfb><C:/Users/Luca/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/pxfonts/rpxr.pfb><C:/Users/Luca/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/urw/palatino/uplb8a.pfb><C:/Users/Luca/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/urw/palatino/uplr8a.pfb><C:/Users/Luca/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Luca/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on FSMathe.pdf (2 pages, 90925 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

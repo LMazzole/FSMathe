@@ -1,17 +1,71 @@
+
 \section{Algebra}
 \subsection{Binomische Formeln}
-\begin{table}[htb]
-	\begin{tabular}{lll}
-	$(a\pm b)^2=a^2\pm 2ab+b^2$ & $(a+b)(a-b)=a^2-b^2$ & $(a \pm b)^3 = a^3 \pm 3a^2 b + 3ab^2 \pm b^3  \newline
-	$
-	\end{tabular}
-\end{table}
+\begin{tabularx}{\columnwidth}{XXX}
+	$(a\pm b)^2=a^2\pm 2ab+b^2$ & $(a+b)(a-b)=a^2-b^2$ & $(a \pm b)^3 = a^3 \pm 3a^2 b + 3ab^2 \pm b^3$
+\end{tabularx}
+
 \subsection{Potenzen}
-\begin{minipage}{0.5\linewidth}
-	$
-	a^n \cdot a^m = a^{m+n} \newline
-	(a \cdot b)^n = a^n \cdot b^n \newline
-	(a^m)^n = (a^n)^m = a^{m \cdot n}\newline
-	a^0 = 1 \qquad (a \neq 0)\newline %TODO biggr space
-	$
-\end{minipage}
+\begin{tabularx}{\columnwidth}{XXXl}
+	$a^n \cdot a^m = a^{m+n}$&$(a \cdot b)^n = a^n \cdot b^n $&$(a^m)^n = (a^n)^m = a^{m \cdot n}$&$a^0 = 1 \quad (a \neq 0)$
+	\\
+	$\frac{a^n}{a^m}=a^{n-m} \quad (a \neq 0)$&$(\frac{a}{b})^n=\frac{a^n}{b^n} \quad (a \neq 0)$&$ a^{-n}=\frac{1}{a^n} \quad (a \neq 0) $&$ a^{\frac{1}{n}}=\sqrt[n]{a} \quad ( a > 0; n \in	\mathbb{N}) $			
+\end{tabularx}
+
+\subsection{Lineare Funktionen}
+\begin{tabularx}{\columnwidth}{Xl}
+	Lineare Funktion: & $ y = f(x)=mx +q $
+	\\
+	$ P_{1}(x_{1}|y_{1}),P_{2}(x_{2}|y_{2}$ \qquad sind Punkte auf der Geraden: & $ y=m(x-x_{1})+y_{1}, \quad m= \frac{y_{2} - y_{1}}{x_{2} - x_{1}} $
+	\\
+	Die Geraden$ \;  g_{1} $und $g_{2} \:$ stehen senkrecht aufeinander & $\Leftrightarrow m_{1} \cdot m_{2} = -1 $
+\end{tabularx}
+
+\subsection{Quadratische Gleichung}
+\begin{tabularx}{\columnwidth}{l}
+	$ ax^2+bx+c=0 \leftrightarrow x_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a} $ \qquad, es gilt dann:\quad $ ax^2+bx+c=a(x-x_{1})(x-x_{2}) $	
+\end{tabularx}
+
+\subsection{Quadratische Funktion}
+\begin{tabularx}{\columnwidth}{Xl}
+	Allgemeine Form: & $ y=f(x)=ax^2+bx+c $
+	\\
+	Scheitelform: &$ y= f(x)=m(x+a)^2+b \quad$ mit Scheitelpunkt $ S(-a/b) $
+	\\
+	Zusammenhang Scheitelform $ \leftrightarrow $ allgemeine Form: & $ u= -\frac{b}{2a} $ und $ v = f(u)=c-\frac{b^2}{4a} $
+\end{tabularx}
+
+\subsection{Logarithmen}
+\begin{tabularx}{\columnwidth}{XXl}
+	Definition: & $a^x=b \leftrightarrow x=log_{a}(b),$ \; wobei\;  $a,b > 0 $ und $ a \neq 1$
+\end{tabularx}
+\begin{tabularx}{\columnwidth}{XXXXX}
+	Spezialfälle:&$log_{a}1=0$&$log_{a}(a)=1$&$log_{a}(a^y)=y$&$a^{log_{a}(y)}=y$
+\end{tabularx}
+\begin{tabularx}{\columnwidth}{XX}
+	Zehnerlogarithmus: & $ lg(x)=log_{10}(x) $
+	\\
+	Natürlicher Logarithmus:&$ ln(x)=log_{e}(x) \quad (e$ :Eulersch'e Zahl $) $
+\end{tabularx}
+
+\subsection{Rechengesetze für Logarithmen}
+\begin{tabularx}{\columnwidth}{XXX}
+	$ log_{a}(u\cdot v)=log_{a}(u)+log_{a}(v)$&$log_{a}(\frac{u}{v})=log_{a}(u)-log_{a}(v)$&$ log_a(\frac{1}{v})=-log_{a}(v)$
+	\\
+	$log_{a}(u^r)=r\cdot log_{a}(|u|)$&$ log_{a}(x)=\frac{ln(x)}{ln(a)}=\frac{lg(x)}{lg(a)}$&$ log_{a}(b)=\frac{1}{log_{b}(a)}$
+	\\
+	$log_{a}(\sqrt[n]{x})=\frac{loga_{a}(x)}{n}$
+\end{tabularx}
+
+\subsection{Exponentialfunktion}
+\begin{tabularx}{\columnwidth}{Xl}
+	Definition: & $ y=f(x)=c \cdot a^x$ , wobei a > 0 und a $ \neq $ 1
+	\\
+	Es gilt: &$ y=f(x)=c \cdot a^x = c \cdot e^{\lambda x}$, mit $ \lambda$ = ln a ($ e $: Euler'sche zahl)
+	\\
+	Exponentielles Wachstum/Zerfall: & $ y=f(t)=y_{0} \cdot a^{\frac{t-t_{0}}{\sum}} $
+\end{tabularx}
+\begin{tabularx}{\columnwidth}{X}
+	($ y_{0} $: Wert zum Zeitpunkt$ t_{0} $;\quad a: Wachstum-/Abnahmefaktor;\quad $ \sum $: Schrittweite)
+
+\end{tabularx}
