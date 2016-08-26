@@ -1,28 +1,30 @@
-%=================================
-%Info's
-\author{Luca Mazzoelni}
-\title{Formelsammlung Mathe}
-\documentclass[11pt,a4paper,fleqn]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dokumentinformationen %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\titleinfo}{kleine Formelsammlung Mathe}
+\newcommand{\authorname}{\href{mailto:lmazzole@hsr.ch}{L. Mazzoleni}}
+\newcommand{\authoremail}{\href{mailto:lmazzole@hsr.ch}{lmazzole@hsr.ch} }
+\newcommand{\versioninfo}{$ V1.1 $}
 
-%Header
-\include{header/zusammenfassung}
-\usepackage{amsmath}
-\usepackage{textcomp} % Wird f¸r Copyright-Symbol,W‰hrungen, Musikalische-Symbole benˆtigt
-\usepackage{pxfonts} % Mathsymbols
-\usepackage{enumitem} % Controls Layout of itemize, enumerate, description
-\usepackage{array} % Extending the array and tabular environment -> m,b,p,..
-\usepackage{adjustbox} %adjustbox, minipage..
-\usepackage{caption} % Ver‰ndern der Schriftart von Bildunterschriften
-\usepackage{subcaption} % "Unterbilder"
-\usepackage{tikz}
-\usepackage{circuitikz}
-%Doc
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Standard projekt√ºbergreifender Header f√ºr 
+% - Makros 
+% - Farben
+% - Mathematische Operatoren
+%
+% dORT NUR ERG√ÑNZEN, NICHTS L√ñSCHEN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{header/header}
+%\include{header/codelayout}
+% M√∂glichst keine Erg√§nzungen hier, sondern in header.tex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
-	\maketitle
-	\tableofcontents
-	\thispagestyle{empty}
-	\newpage
-	
-	\input{sections/algebra}
-	
+\maketitle
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\input{sections/algebra}
 \end{document}
